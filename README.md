@@ -4,7 +4,7 @@
 We cordially invite you to participate in the RuREBus (Russian Relation Extraction for Business) shared task. The overall goal of the shared task is to develop business-oriented models capable of relation and/or fact extraction from texts.
 
 ## Important dates
-* **26.12.2019** -- a [sample of annotated documents](https://github.com/dialogue-evaluation/RuREBus/tree/master/examples) and [markup guidelines](https://github.com/dialogue-evaluation/RuREBus/blob/master/markup_instruction.docx) are released
+* **26.12.2019** -- a [sample of annotated documents](https://github.com/dialogue-evaluation/RuREBus/tree/master/examples) and [markup guidelines](https://github.com/dialogue-evaluation/RuREBus/blob/master/markup_instruction.pdf) are released
 * **31.01.2020** --  [first part of the train set](https://github.com/dialogue-evaluation/RuREBus/tree/master/train_data), [evaluation scripts](https://github.com/dialogue-evaluation/RuREBus/tree/master/eval_scripts) and [the unannotated corpus](https://yadi.sk/d/9uKbo3p0ghdNpQ) are released
 * **We are here**
 * **03.02.2020** -- second part of the train set is released
@@ -22,7 +22,7 @@ First, the annotations are quite tight, i.e. almost every sentence contains an a
 
 The goal of the task is to compare the methods for relation extraction in a more close-to-practice way. For these reasons, we suggest using the documents, produced by the Ministry of Economic Development of the Russian Federation.
 
-The corpus contains regional reports and strategic plans. A part of the corpus is annotated with named entities (8 classes) and semantic relations (11 classes). In total there are approximately 300 annotated documents. The annotation schema and the guidelines for annotators can be found in [here](https://github.com/dialogue-evaluation/RuREBus/blob/master/markup_instruction.docx) (in Russian).
+The corpus contains regional reports and strategic plans. A part of the corpus is annotated with named entities (8 classes) and semantic relations (11 classes). In total there are approximately 300 annotated documents. The annotation schema and the guidelines for annotators can be found in [here](https://github.com/dialogue-evaluation/RuREBus/blob/master/markup_instruction.pdf) (in Russian).
 
 ## Tasks
 1. Named entity recognition. The task is evaluated with micro F-measure on named entity spans. 
@@ -75,7 +75,7 @@ We will be happy to answer any questions about the shared task in [our telegram 
 Корпус представляет собой различные отчеты региональных органов о проделанной работе и запланированных мероприятиях, а также прогнозы и планы на будущее. Некоторое подмножество корпуса будет размечено специальными именованными сущностями (8 классов) и семантическими отношениями на них (11 классов). Всего хотелось бы получить как минимум несколько сотен размеченных текстов.
 
 
-Эскиз инструкции для разметчиков можно прочесть [здесь](https://github.com/dialogue-evaluation/RuREBus/blob/master/markup_instruction.docx)
+Эскиз инструкции для разметчиков можно прочесть [здесь](https://github.com/dialogue-evaluation/RuREBus/blob/master/markup_instruction.pdf)
  (мелкие детали могут уточняться). 
 
 ## Задачи:
@@ -107,7 +107,7 @@ We will be happy to answer any questions about the shared task in [our telegram 
 Мы хотим проверить гипотезу: верно ли, что такие языковые модели будут показывать лучшие результаты, по сравнению с моделями, предобученными на текстах из других предметных областей.
 
 ## Важные даты:
-* **26 декабря 2019** - [выдача примера размеченных данных](https://github.com/dialogue-evaluation/RuREBus/tree/master/examples) и [инструкции для разметки](https://github.com/dialogue-evaluation/RuREBus/blob/master/markup_instruction.docx)
+* **26 декабря 2019** - [выдача примера размеченных данных](https://github.com/dialogue-evaluation/RuREBus/tree/master/examples) и [инструкции для разметки](https://github.com/dialogue-evaluation/RuREBus/blob/master/markup_instruction.pdf)
 * **31 января 2020** - выдача [первой части собучающей выборки](https://github.com/dialogue-evaluation/RuREBus/tree/master/train_data), [скриптов для оценки качества](https://github.com/dialogue-evaluation/RuREBus/tree/master/eval_scripts) и [всего неразмеченного корпуса](https://yadi.sk/d/9uKbo3p0ghdNpQ)
 * **Вы находитесь здесь**
 * **3 февраля 2020** - выдача второй части обучающей выборки
