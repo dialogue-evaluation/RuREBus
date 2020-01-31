@@ -58,7 +58,7 @@ Anton Emelyanov, Sberbank: login-const@mail.ru
 
 Tatiana Batura, Novosibirsk State University: tatiana.v.batura@gmail.com
 
-Shared task info will be announced in [our telegram channel](https://t.me/RuREBus). We will be happy to answer any questions about the shared task in [our telegram chat](https://t.me/joinchat/GH1hLBH6dv8tTviF-dBFLA). 
+To get RuREBus updates please join [our telegram channel](https://t.me/RuREBus). We will be happy to answer any questions about the shared task in [our telegram chat](https://t.me/joinchat/GH1hLBH6dv8tTviF-dBFLA). 
 
 
 # RuREBus
