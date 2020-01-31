@@ -6,7 +6,7 @@ We cordially invite you to participate in the RuREBus (Russian Relation Extracti
 ## Important dates
 * **26.12.2019** -- a [sample of annotated documents](https://github.com/dialogue-evaluation/RuREBus/tree/master/examples) and [markup guidelines](https://github.com/dialogue-evaluation/RuREBus/blob/master/markup_instruction.docx) are released
 * **31.01.2020** --  [first part of the train set](https://github.com/dialogue-evaluation/RuREBus/tree/master/train_data), [evaluation scripts](https://github.com/dialogue-evaluation/RuREBus/tree/master/eval_scripts) and [the unannotated corpus](https://yadi.sk/d/9uKbo3p0ghdNpQ) are released
-**We are here**
+* **We are here**
 * **03.02.2020** -- second part of the train set is released
 * **17.02.2020** -- third part of the train set is released
 * **20.02.2020** -- the test set is released, the evaluation starts
@@ -109,7 +109,7 @@ We will be happy to answer any questions about the shared task in [our telegram 
 ## Важные даты:
 * **26 декабря 2019** - [выдача примера размеченных данных](https://github.com/dialogue-evaluation/RuREBus/tree/master/examples) и [инструкции для разметки](https://github.com/dialogue-evaluation/RuREBus/blob/master/markup_instruction.docx)
 * **31 января 2020** - выдача [первой части собучающей выборки](https://github.com/dialogue-evaluation/RuREBus/tree/master/train_data), [скриптов для оценки качества](https://github.com/dialogue-evaluation/RuREBus/tree/master/eval_scripts) и [всего неразмеченного корпуса](https://yadi.sk/d/9uKbo3p0ghdNpQ)
-**Вы находитесь здесь**
+* **Вы находитесь здесь**
 * **3 февраля 2020** - выдача второй части обучающей выборки
 * **17 февраля 2020** - выдача третьей части обучающей выборки
 * **20 февраля 2020** - начало тестирования
