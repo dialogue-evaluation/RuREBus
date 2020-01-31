@@ -1,5 +1,6 @@
 # RuREBus
-(описание на русском доступно во второй части ридми)
+(описание на русском доступно во второй части readme)
+
 We cordially invite you to participate in the RuREBus (Russian Relation Extraction for Business) shared task. The overall goal of the shared task is to develop business-oriented models capable of relation and/or fact extraction from texts.
 
 ## Important dates
