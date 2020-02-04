@@ -36,7 +36,7 @@ Evaluation scripts are avaliable [here](https://github.com/dialogue-evaluation/R
 ## Dataset 
 The dataset consists of:
 
-1. A train set with manually annotated named entities and relations. First and second parts of train set is avaliable [here](https://github.com/dialogue-evaluation/RuREBus/tree/master/train_data)
+1. A train set with manually annotated named entities and relations. First and second parts of train set are avaliable [here](https://github.com/dialogue-evaluation/RuREBus/tree/master/train_data)
 
 2.  A large corpus (approx. 280 million tokens) of raw free-form documents, produced by the Ministry of Economic Development. These documents come from the same domain as the train and the test set. This data is avaliable [here](https://yadi.sk/d/9uKbo3p0ghdNpQ).
 
