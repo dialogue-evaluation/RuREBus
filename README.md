@@ -109,8 +109,8 @@ To get RuREBus updates please join [our telegram channel](https://t.me/RuREBus).
 * **26 декабря 2019** - [выдача примера размеченных данных](https://github.com/dialogue-evaluation/RuREBus/tree/master/examples) и [инструкции для разметки](https://github.com/dialogue-evaluation/RuREBus/blob/master/markup_instruction.pdf)
 * **31 января 2020** - выдача [первой части собучающей выборки](https://github.com/dialogue-evaluation/RuREBus/tree/master/train_data), [скриптов для оценки качества](https://github.com/dialogue-evaluation/RuREBus/tree/master/eval_scripts) и [всего неразмеченного корпуса](https://yadi.sk/d/9uKbo3p0ghdNpQ)
 * **4 февраля 2020** - выдача [второй части обучающей выборки](https://github.com/dialogue-evaluation/RuREBus/blob/master/train_data/train_part_2.zip)
+* **18 февраля 2020** - выдача третьей части обучающей выборки
 * **Вы находитесь здесь**
-* **17 февраля 2020** - выдача третьей части обучающей выборки
 * **20 февраля 2020** - начало тестирования
 * **29 февраля 2020** - финальная подача систем
 * **5 марта 2020** - объявление официальных результатов
