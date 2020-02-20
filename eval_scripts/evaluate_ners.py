@@ -56,7 +56,7 @@ def cacl_ner_tp_fp_fn(true_ners, pred_ners):
             continue
         if true_ners[i][1] > pred_ners[j][1]:
             false_positive += 1
-            i += 1
+            j += 1
             continue
 
         false_positive += 1
