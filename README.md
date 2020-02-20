@@ -7,8 +7,8 @@ We cordially invite you to participate in the RuREBus (Russian Relation Extracti
 * **26.12.2019** -- a [sample of annotated documents](https://github.com/dialogue-evaluation/RuREBus/tree/master/examples) and [markup guidelines](https://github.com/dialogue-evaluation/RuREBus/blob/master/markup_instruction.pdf) are released
 * **31.01.2020** --  [first part of the train set](https://github.com/dialogue-evaluation/RuREBus/tree/master/train_data), [evaluation scripts](https://github.com/dialogue-evaluation/RuREBus/tree/master/eval_scripts) and [the unannotated corpus](https://yadi.sk/d/9uKbo3p0ghdNpQ) are released
 * **04.02.2020** -- [second part of the train set](https://github.com/dialogue-evaluation/RuREBus/blob/master/train_data/train_part_2.zip)  is released
+* **18.02.2020** -- [third part of the train set](https://github.com/dialogue-evaluation/RuREBus/blob/master/train_data/train_part_3.zip) is released
 * **We are here**
-* **17.02.2020** -- third part of the train set is released
 * **20.02.2020** -- the test set is released, the evaluation starts
 * **29.02.2020** -- final submission deadline
 * **5.03.2020** -- the results are announced 
@@ -109,7 +109,7 @@ To get RuREBus updates please join [our telegram channel](https://t.me/RuREBus).
 * **26 декабря 2019** - [выдача примера размеченных данных](https://github.com/dialogue-evaluation/RuREBus/tree/master/examples) и [инструкции для разметки](https://github.com/dialogue-evaluation/RuREBus/blob/master/markup_instruction.pdf)
 * **31 января 2020** - выдача [первой части собучающей выборки](https://github.com/dialogue-evaluation/RuREBus/tree/master/train_data), [скриптов для оценки качества](https://github.com/dialogue-evaluation/RuREBus/tree/master/eval_scripts) и [всего неразмеченного корпуса](https://yadi.sk/d/9uKbo3p0ghdNpQ)
 * **4 февраля 2020** - выдача [второй части обучающей выборки](https://github.com/dialogue-evaluation/RuREBus/blob/master/train_data/train_part_2.zip)
-* **18 февраля 2020** - выдача третьей части обучающей выборки
+* **18 февраля 2020** - выдача [третьей части обучающей выборки](https://github.com/dialogue-evaluation/RuREBus/blob/master/train_data/train_part_3.zip)
 * **Вы находитесь здесь**
 * **20 февраля 2020** - начало тестирования
 * **29 февраля 2020** - финальная подача систем
