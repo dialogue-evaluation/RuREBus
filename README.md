@@ -21,12 +21,12 @@ We cordially invite you to participate in the RuREBus (Russian Relation Extracti
 ### Phase 1.
 For phase 1 the submission format is as follows: zip archive containing 2 folders named "set_1" and "set_3". Each folder should contain data for tasks 1 and 3 respectively. 
 
-Date format in each is the same as in [train set](https://github.com/dialogue-evaluation/RuREBus/tree/master/train_data) i. e. for every text there should be .ann file containing BRAT markup of the text (.txt file for each text with text itself is optional). The name of each .ann file should be the same as the name of .txt file from [test set]() provided by organizers
+Date format in each is the same as in [train set](https://github.com/dialogue-evaluation/RuREBus/tree/master/train_data) i. e. for every text there should be .ann file containing BRAT markup of the text (.txt file for each text with text itself is optional). The name of each .ann file should be the same as the name of .txt file from [test set](https://github.com/dialogue-evaluation/RuREBus/tree/master/test_data) provided by organizers
 
 ### Phase 2.
 For phase 2 the submission format is as follows: zip archive containing 1 folders named "set_2". This folder should contain data for task 2.
 Date format is the same as in [train set](https://github.com/dialogue-evaluation/RuREBus/tree/master/train_data) i. e. for every text there should be .ann file containing BRAT markup of the text (.txt file for each text with text itself is optional).
-The name of each .ann file should be the same as the name of .txt file from [test set]() provided by organizers.
+The name of each .ann file should be the same as the name of .txt file from [test set](https://github.com/dialogue-evaluation/RuREBus/tree/master/test_data) provided by organizers.
 
 ## Our Motivation
 A lot of business applications require relation extraction. Although there are a few corpora, that contain texts annotated with relations, all of them are more of an academic nature and differ from typical business applications. There are a few reasons for this.
@@ -136,12 +136,12 @@ To get RuREBus updates please join [our telegram channel](https://t.me/RuREBus).
 ### Первая фаза.
 Сабмит для первой фазы должен иметь следующий вид: zip-архив с 2 папками - "set_1" и "set_3", содержащими данные для первой и третьей задачи соответственно. 
 
-Формат данных в каждой папке такой же как для [обучающей выборки](https://github.com/dialogue-evaluation/RuREBus/tree/master/train_data) т. е. для каждого текста должен иметься в наличии .ann файл, содержащий аннотацию текста в формате BRAT (включение .txt файлов опционально). Имя каждого .ann файла должно совпадать с именем .txt файла из [тестовой выборки](), предоставленной организаторами.
+Формат данных в каждой папке такой же как для [обучающей выборки](https://github.com/dialogue-evaluation/RuREBus/tree/master/train_data) т. е. для каждого текста должен иметься в наличии .ann файл, содержащий аннотацию текста в формате BRAT (включение .txt файлов опционально). Имя каждого .ann файла должно совпадать с именем .txt файла из [тестовой выборки](https://github.com/dialogue-evaluation/RuREBus/tree/master/test_data), предоставленной организаторами.
 
 ### Вторая фаза.
 Сабмит для второй фазы должен иметь следующий вид: zip-архив с 1 папкой - "set_2", содержащий данные для второй задачи.
 
-Формат данных в папке такой же как для [обучающей выборки](https://github.com/dialogue-evaluation/RuREBus/tree/master/train_data) т. е. для каждого текста должен иметься в наличии .ann файл, содержащий аннотацию текста в формате BRAT (включение .txt файлов опционально). Имя каждого .ann файла должно совпадать с именем .txt файла из [тестовой выборки](), предоставленной организаторами.
+Формат данных в папке такой же как для [обучающей выборки](https://github.com/dialogue-evaluation/RuREBus/tree/master/train_data) т. е. для каждого текста должен иметься в наличии .ann файл, содержащий аннотацию текста в формате BRAT (включение .txt файлов опционально). Имя каждого .ann файла должно совпадать с именем .txt файла из [тестовой выборки](https://github.com/dialogue-evaluation/RuREBus/tree/master/test_data), предоставленной организаторами.
 
 
 ## Состав оргкомитета и контакты
