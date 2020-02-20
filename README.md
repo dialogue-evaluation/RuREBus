@@ -8,12 +8,25 @@ We cordially invite you to participate in the RuREBus (Russian Relation Extracti
 * **31.01.2020** --  [first part of the train set](https://github.com/dialogue-evaluation/RuREBus/tree/master/train_data), [evaluation scripts](https://github.com/dialogue-evaluation/RuREBus/tree/master/eval_scripts) and [the unannotated corpus](https://yadi.sk/d/9uKbo3p0ghdNpQ) are released
 * **04.02.2020** -- [second part of the train set](https://github.com/dialogue-evaluation/RuREBus/blob/master/train_data/train_part_2.zip)  is released
 * **18.02.2020** -- [third part of the train set](https://github.com/dialogue-evaluation/RuREBus/blob/master/train_data/train_part_3.zip) is released
-* **We are here**
-* **20.02.2020** -- the test set is released, the evaluation starts
-* **29.02.2020** -- final submission deadline
-* **5.03.2020** -- the results are announced 
+* **20.02.2020** -- [the test set](https://github.com/dialogue-evaluation/RuREBus/tree/master/test_data) is released, the first evaluation phase (for tasks 1 and 3) starts [on codalab](https://competitions.codalab.org/competitions/23407?secret_key=5cf6d204-0f1c-468a-8254-42a2f22ac39a)
+* **We are here*
+* **29.02.2020** -- the submission deadline for systems solving tasks 1 and 3
+* **1.03.2020** -- second evaluation phase starts (for task 2) [on codalab](https://competitions.codalab.org/competitions/23407?secret_key=5cf6d204-0f1c-468a-8254-42a2f22ac39a)
+* **05.03.2020** -- the submission deadline for systems solving task 2
+* **6.03.2020** -- the results are announced 
 * **16.03.2020** -- paper submission deadline
 
+## Submission format
+
+### Phase 1.
+For phase 1 the submission format is as follows: zip archive containing 2 folders named "set_1" and "set_3". Each folder should contain data for tasks 1 and 3 respectively. 
+
+Date format in each is the same as in [train set](https://github.com/dialogue-evaluation/RuREBus/tree/master/train_data) i. e. for every text there should be .ann file containing BRAT markup of the text (.txt file for each text with text itself is optional). The name of each .ann file should be the same as the name of .txt file from [test set]() provided by organizers
+
+### Phase 2.
+For phase 2 the submission format is as follows: zip archive containing 1 folders named "set_2". This folder should contain data for task 2.
+Date format is the same as in [train set](https://github.com/dialogue-evaluation/RuREBus/tree/master/train_data) i. e. for every text there should be .ann file containing BRAT markup of the text (.txt file for each text with text itself is optional).
+The name of each .ann file should be the same as the name of .txt file from [test set]() provided by organizers.
 
 ## Our Motivation
 A lot of business applications require relation extraction. Although there are a few corpora, that contain texts annotated with relations, all of them are more of an academic nature and differ from typical business applications. There are a few reasons for this.
@@ -110,11 +123,26 @@ To get RuREBus updates please join [our telegram channel](https://t.me/RuREBus).
 * **31 января 2020** - выдача [первой части собучающей выборки](https://github.com/dialogue-evaluation/RuREBus/tree/master/train_data), [скриптов для оценки качества](https://github.com/dialogue-evaluation/RuREBus/tree/master/eval_scripts) и [всего неразмеченного корпуса](https://yadi.sk/d/9uKbo3p0ghdNpQ)
 * **4 февраля 2020** - выдача [второй части обучающей выборки](https://github.com/dialogue-evaluation/RuREBus/blob/master/train_data/train_part_2.zip)
 * **18 февраля 2020** - выдача [третьей части обучающей выборки](https://github.com/dialogue-evaluation/RuREBus/blob/master/train_data/train_part_3.zip)
+* **20 февраля 2020** - выдача [тестовой выборки](https://github.com/dialogue-evaluation/RuREBus/tree/master/test_data) начало первой фазы тестирования (для задач 1 и 3) [в codalab](https://competitions.codalab.org/competitions/23407?secret_key=5cf6d204-0f1c-468a-8254-42a2f22ac39a)
 * **Вы находитесь здесь**
-* **20 февраля 2020** - начало тестирования
-* **29 февраля 2020** - финальная подача систем
-* **5 марта 2020** - объявление официальных результатов
+* **29 февраля 2020** - финальная подача систем для задач 1 и 3
+* **1 марта 2020**  - начало второй фазы тестирования (для задачи 2) [в codalab](https://competitions.codalab.org/competitions/23407?secret_key=5cf6d204-0f1c-468a-8254-42a2f22ac39a)
+* **5 марта 2020** - финальная подача систем для задачи 2
+* **6 марта 2020** - объявление официальных результатов
 * **16 марта 2020** - дедлайн по статьям в сборник конференции Dialogue-2020
+
+## Формат сабмита
+
+### Первая фаза.
+Сабмит для первой фазы должен иметь следующий вид: zip-архив с 2 папками - "set_1" и "set_3", содержащими данные для первой и третьей задачи соответственно. 
+
+Формат данных в каждой папке такой же как для [обучающей выборки](https://github.com/dialogue-evaluation/RuREBus/tree/master/train_data) т. е. для каждого текста должен иметься в наличии .ann файл, содержащий аннотацию текста в формате BRAT (включение .txt файлов опционально). Имя каждого .ann файла должно совпадать с именем .txt файла из [тестовой выборки](), предоставленной организаторами.
+
+### Вторая фаза.
+Сабмит для второй фазы должен иметь следующий вид: zip-архив с 1 папкой - "set_2", содержащий данные для второй задачи.
+
+Формат данных в папке такой же как для [обучающей выборки](https://github.com/dialogue-evaluation/RuREBus/tree/master/train_data) т. е. для каждого текста должен иметься в наличии .ann файл, содержащий аннотацию текста в формате BRAT (включение .txt файлов опционально). Имя каждого .ann файла должно совпадать с именем .txt файла из [тестовой выборки](), предоставленной организаторами.
+
 
 ## Состав оргкомитета и контакты
 
