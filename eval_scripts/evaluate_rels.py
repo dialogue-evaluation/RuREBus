@@ -1,8 +1,10 @@
+# encoding=utf-8
+
 from brat_format import read_file
 import os
 
-true_dir = "test_1\\true_dir"
-predict_dir = "test_1\\predict_dir"
+# true_dir = "test_1\\true_dir"
+# predict_dir = "test_1\\predict_dir"
 
 ner_types = {"OUT", "ACT", "BIN", "CMP", "ECO", "INST", "MET", "SOC", "QUA"}
 rel_types = {"NNG", "NNT", "NPS", "FNG", "FNT", "FPS", "PNG", "PNT", "PPS", "GOL", "TSK"}
@@ -27,64 +29,95 @@ def cacl_rel_tp_fp_fn(true_data, pred_data):
     true_rels = true_data.relations
     true_ners = true_data.ners
 
-    pred_rels = true_data.relations
+    pred_rels = pred_data.relations
     pred_ners = pred_data.ners
 
     true_positive = 0
     false_positive = 0
     false_negative = 0
 
-    def find_rel(lh_rel, lh_ner_arr, rel_arr, ner_arr):
+    def find_rel(lh_rel, lh_data, rel_arr, rh_data):
         for rh_rel in rel_arr:
-            if lh_rel[0] != rh_rel:
+            if lh_rel[0] != rh_rel[0]:
                 continue
-            if (lh_ner_arr[lh_rel[1]] == ner_arr[rel_arr[1]] and lh_ner_arr[lh_rel[2]] == ner_arr[rel_arr[2]]) \
-                or (lh_ner_arr[lh_rel[1]] == ner_arr[rel_arr[2]] and lh_ner_arr[lh_rel[2]] == ner_arr[rel_arr[1]]):
+            
+            lh_ner_idx_1 = lh_data.ner_id_2_idx[lh_rel[1]]
+            lh_ner_idx_2 = lh_data.ner_id_2_idx[lh_rel[2]]
+
+            # if not rh_rel[1] in rh_data.ner_id_2_idx:
+            #     print(1)
+
+            rh_ner_idx_1 = rh_data.ner_id_2_idx[rh_rel[1]]
+            rh_ner_idx_2 = rh_data.ner_id_2_idx[rh_rel[2]]
+
+            if (lh_data.ners[lh_ner_idx_1] == rh_data.ners[rh_ner_idx_1] and lh_data.ners[lh_ner_idx_2] == rh_data.ners[rh_ner_idx_2]) \
+                or (lh_data.ners[lh_ner_idx_1] == rh_data.ners[rh_ner_idx_2] and lh_data.ners[lh_ner_idx_2] == rh_data.ners[rh_ner_idx_1]):
                 return True
         return False
 
     for true_r in true_rels:
-        if find_rel(true_r, true_ners, pred_rels, pred_ners):
+        if find_rel(true_r, true_data, pred_rels, pred_data):
             true_positive += 1
         else:
             false_negative += 1
 
     for pred_r in pred_rels:
-        if not find_rel(pred_r, pred_ners, true_rels, true_ners):
+        if not find_rel(pred_r, pred_data, true_rels, true_data):
             false_positive += 1
 
     return true_positive, false_positive, false_negative
 
 
+def calc_rels_f1(true_dir, pred_dir):
 
-total_tp = 0
-total_fp = 0
-total_fn = 0
+    total_tp = 0
+    total_fp = 0
+    total_fn = 0
 
-for doc in os.listdir(true_dir):
-    if doc.endswith(".ann"):
-        true_doc = os.path.join(true_dir, doc)
-        pred_doc = os.path.join(predict_dir, doc)
+    files = os.listdir(true_dir)
 
-        true_data = read_file(true_doc)
-        pred_data = read_file(pred_doc)
+    for doc in files:
+        if doc.endswith(".ann"):
+            # print(doc)
+            true_doc = os.path.join(true_dir, doc)
+            pred_doc = os.path.join(pred_dir, doc)
 
-        if len(pred_data.relations) == 0:
-            total_fn += len(true_data.relations)
-            continue
+            true_data = read_file(true_doc)
 
-        if len(true_data.relations) == 0:
-            total_fp += len(pred_data.relations)
-            continue
+            if not os.path.exists(pred_doc):
+                if len(true_data.relations) == 0:
+                    continue
+                else:
+                    total_fn += len(true_data.relations)
+                    continue
 
-        tp, fp, fn = cacl_rel_tp_fp_fn(true_data, pred_data)
+            try:
+                pred_data = read_file(pred_doc)
+            except:
+                if len(true_data.relations) == 0:
+                    continue
+                else:
+                    total_fn += len(true_data.relations)
+                    continue
 
-        print("{} : TP - {} / FP - {} / FN - {}".format(doc, tp, fp, fn))
+            if len(pred_data.relations) == 0:
+                total_fn += len(true_data.relations)
+                continue
 
-        total_tp += tp
-        total_fp += fp
-        total_fn += fn
+            if len(true_data.relations) == 0:
+                total_fp += len(pred_data.relations)
+                continue
 
-precision, recall = compute_precision_and_recall(total_tp, total_fp, total_fn)
-f_measure = 2 * precision * recall / (precision + recall)
-print("f_1: ", f_measure)
+            tp, fp, fn = cacl_rel_tp_fp_fn(true_data, pred_data)
+
+            total_tp += tp
+            total_fp += fp
+            total_fn += fn
+
+    # print(total_tp, total_fp, total_fn)
+    precision, recall = compute_precision_and_recall(total_tp, total_fp, total_fn)
+    f_measure = 2 * precision * recall / (precision + recall)
+
+    return f_measure
+
+# print("f_1: ", f_measure)

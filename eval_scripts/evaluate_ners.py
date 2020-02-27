@@ -1,11 +1,23 @@
+# encoding=utf-8
+
+import sys
+
 from brat_format import read_file
 import os
 
-true_dir = "test_1\\true_dir"
-predict_dir = "test_1\\predict_dir"
+
+# output_stream = sys.stdout
+# if len(sys.argv) == 1:
+#     true_dir = "test_1\\true_dir"
+#     predict_dir = "test_1\\predict_dir"
+# else:
+#     true_dir = os.path.join(sys.argv[1], "ref")
+#     predict_dir = os.path.join(sys.argv[1], "res")
+#     output_dir = open(os.path.join(sys.argv[2], "result.txt"), "w+")
 
 ner_types = {"OUT", "ACT", "BIN", "CMP", "ECO", "INST", "MET", "SOC", "QUA"}
 rel_types = {"NNG", "NNT", "NPS", "FNG", "FNT", "FPS", "PNG", "PNT", "PPS", "GOL", "TSK"}
+
 
 
 def compute_precision_and_recall(true_positive, false_positive, false_negative):
@@ -71,32 +83,43 @@ def cacl_ner_tp_fp_fn(true_ners, pred_ners):
 
 
 
-total_tp = 0
-total_fp = 0
-total_fn = 0
+def calc_ner_f1(true_dir, pred_dir):
+    total_tp = 0
+    total_fp = 0
+    total_fn = 0
 
-for doc in os.listdir(true_dir):
-    if doc.endswith(".ann"):
-        true_doc = os.path.join(true_dir, doc)
-        pred_doc = os.path.join(predict_dir, doc)
+    files = os.listdir(true_dir)
 
-        true_data = read_file(true_doc)
-        pred_data = read_file(pred_doc)
+    for doc in files:
+        if doc.endswith(".ann"):
+            true_doc = os.path.join(true_dir, doc)
+            pred_doc = os.path.join(pred_dir, doc)
 
-        true_ners = sorted(true_data.ners, key=lambda x: x[1])
-        pred_ners = sorted(pred_data.ners, key=lambda x: x[1])
 
-        tp, fp, fn = cacl_ner_tp_fp_fn(true_ners, pred_ners)
+            true_data = read_file(true_doc)
+            true_ners = sorted(true_data.ners, key=lambda x: x[1])
 
-        print("{} : TP - {} / FP - {} / FN - {}".format(doc, tp, fp, fn))
+            pred_ners = []
+            if os.path.exists(pred_doc):
+                try:
+                    pred_data = read_file(pred_doc)
+                    pred_ners = sorted(pred_data.ners, key=lambda x: x[1])
+                except:
+                    pass
 
-        total_tp += tp
-        total_fp += fp
-        total_fn += fn
+            tp, fp, fn = cacl_ner_tp_fp_fn(true_ners, pred_ners)
+            
+            total_tp += tp
+            total_fp += fp
+            total_fn += fn
 
-precision, recall = compute_precision_and_recall(total_tp, total_fp, total_fn)
-f_measure = 2 * precision * recall / (precision + recall)
-print("f_1: ", f_measure)
+    precision, recall = compute_precision_and_recall(total_tp, total_fp, total_fn)
+
+    f_measure = 2 * precision * recall / (precision + recall)
+    
+    return f_measure
+
+# print("f_1: ", f_measure)
 
 # """
 # true : <BIN> Создание <BIN> <ECO> новых рабочих мест <ECO> необходимо <BIN> производить релугярно <BIN> в рамках <ACT> программы поддержки населения <ACT>.
