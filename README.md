@@ -9,9 +9,9 @@ We cordially invite you to participate in the RuREBus (Russian Relation Extracti
 * **04.02.2020** -- [second part of the train set](https://github.com/dialogue-evaluation/RuREBus/blob/master/train_data/train_part_2.zip)  is released
 * **18.02.2020** -- [third part of the train set](https://github.com/dialogue-evaluation/RuREBus/blob/master/train_data/train_part_3.zip) is released
 * **20.02.2020** -- [the test set](https://github.com/dialogue-evaluation/RuREBus/tree/master/test_data) is released, the first evaluation phase (for tasks 1 and 3) starts [on codalab](https://competitions.codalab.org/competitions/23407?secret_key=5cf6d204-0f1c-468a-8254-42a2f22ac39a)
-* **We are here*
 * **2.03.2020** -- the submission deadline for systems solving tasks 1 and 3
-* **3.03.2020** -- second evaluation phase starts (for task 2) [on codalab](https://competitions.codalab.org/competitions/23407?secret_key=5cf6d204-0f1c-468a-8254-42a2f22ac39a)
+* **3.03.2020** -- second evaluation phase starts (for task 2) [on codalab](https://competitions.codalab.org/competitions/23407?secret_key=5cf6d204-0f1c-468a-8254-42a2f22ac39a). [NER markup for test set](https://github.com/dialogue-evaluation/RuREBus/blob/master/test_data/test_ner_only.zip) is released.
+* **We are here*
 * **6.03.2020** -- the submission deadline for systems solving task 2
 * **7.03.2020** -- the results are announced 
 * **16.03.2020** -- paper submission deadline
@@ -124,9 +124,9 @@ To get RuREBus updates please join [our telegram channel](https://t.me/RuREBus).
 * **4 февраля 2020** - выдача [второй части обучающей выборки](https://github.com/dialogue-evaluation/RuREBus/blob/master/train_data/train_part_2.zip)
 * **18 февраля 2020** - выдача [третьей части обучающей выборки](https://github.com/dialogue-evaluation/RuREBus/blob/master/train_data/train_part_3.zip)
 * **20 февраля 2020** - выдача [тестовой выборки](https://github.com/dialogue-evaluation/RuREBus/tree/master/test_data) начало первой фазы тестирования (для задач 1 и 3) [в codalab](https://competitions.codalab.org/competitions/23407?secret_key=5cf6d204-0f1c-468a-8254-42a2f22ac39a)
-* **Вы находитесь здесь**
 * **2 марта 2020** - финальная подача систем для задач 1 и 3
-* **3 марта 2020**  - начало второй фазы тестирования (для задачи 2) [в codalab](https://competitions.codalab.org/competitions/23407?secret_key=5cf6d204-0f1c-468a-8254-42a2f22ac39a)
+* **3 марта 2020**  - начало второй фазы тестирования (для задачи 2) [в codalab](https://competitions.codalab.org/competitions/23407?secret_key=5cf6d204-0f1c-468a-8254-42a2f22ac39a). Опубликована [разметка NER тестовых данных](https://github.com/dialogue-evaluation/RuREBus/blob/master/test_data/test_ner_only.zip) for test is released.
+* **Вы находитесь здесь**
 * **6 марта 2020** - финальная подача систем для задачи 2
 * **7 марта 2020** - объявление официальных результатов
 * **16 марта 2020** - дедлайн по статьям в сборник конференции Dialogue-2020
