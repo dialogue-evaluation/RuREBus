@@ -18,9 +18,9 @@ We cordially invite you to participate in the RuREBus (Russian Relation Extracti
 
 ## Results
 
-|         | NER | RE with NEs | End-to-end RE |
+|   *      | NER | RE with NEs | End-to-end RE |
 | :---:   | :---:    | :---:    | :---:   |
-| **_Team_**   | **_recall_** | **_f-measure_** |  **_f-measure_**  |
+| **_Team_**   | **_f-measure_** | **_f-measure_** |  **_f-measure_**  |
 | **davletov-aa** | **0.560** | 0.369 | 0.000 |
 | **Sdernal** | 0.464 | **0.441** | 0.000 |
 | **ksmith** | 0.463 | 0.152 | **0.062** |
@@ -28,6 +28,8 @@ We cordially invite you to participate in the RuREBus (Russian Relation Extracti
 | **dimsolo** | 0.400 | 0.000 | 0.000 |
 | **bond005** | 0.338 | 0.045 | 0.000 |
 | **Student2020** | 0.253 | 0.045 | 0.000 |
+
+*Table is sorted by NER scores, but all 3 tasks are equally important.
 
 ## Submission format
 
