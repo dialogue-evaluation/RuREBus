@@ -31,6 +31,13 @@ We cordially invite you to participate in the RuREBus (Russian Relation Extracti
 
 *Table is sorted by NER scores, but all 3 tasks are equally important.
 
+Results submitted after the deadline but before the test corpus was published:
+|   *      | NER | RE with NEs | End-to-end RE |
+| :---:   | :---:    | :---:    | :---:   |
+| **_Team_**   | **_f-measure_** | **_f-measure_** |  **_f-measure_**  |
+| **davletov-aa** | 0.561 |  | 0.132 |
+| **bondarenko** | 0.498 |  | 0.000 |
+
 ## Submission format
 
 ### Phase 1.
