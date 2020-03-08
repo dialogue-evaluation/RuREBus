@@ -11,10 +11,10 @@ We cordially invite you to participate in the RuREBus (Russian Relation Extracti
 * **20.02.2020** -- [the test set](https://github.com/dialogue-evaluation/RuREBus/tree/master/test_data) is released, the first evaluation phase (for tasks 1 and 3) starts [on codalab](https://competitions.codalab.org/competitions/23407?secret_key=5cf6d204-0f1c-468a-8254-42a2f22ac39a)
 * **2.03.2020** -- the submission deadline for systems solving tasks 1 and 3
 * **3.03.2020** -- second evaluation phase starts (for task 2) [on codalab](https://competitions.codalab.org/competitions/23407?secret_key=5cf6d204-0f1c-468a-8254-42a2f22ac39a). [NER markup for test set](https://github.com/dialogue-evaluation/RuREBus/blob/master/test_data/test_ner_only.zip) is released.
-* **We are here*
 * **6.03.2020** -- the submission deadline for systems solving task 2
 * **7.03.2020** -- the results are announced 
-* **16.03.2020** -- paper submission deadline
+* **We are here*
+* **18.03.2020** -- paper submission deadline
 
 ## Results
 
@@ -141,10 +141,25 @@ To get RuREBus updates please join [our telegram channel](https://t.me/RuREBus).
 * **20 февраля 2020** - выдача [тестовой выборки](https://github.com/dialogue-evaluation/RuREBus/tree/master/test_data) начало первой фазы тестирования (для задач 1 и 3) [в codalab](https://competitions.codalab.org/competitions/23407?secret_key=5cf6d204-0f1c-468a-8254-42a2f22ac39a)
 * **2 марта 2020** - финальная подача систем для задач 1 и 3
 * **3 марта 2020**  - начало второй фазы тестирования (для задачи 2) [в codalab](https://competitions.codalab.org/competitions/23407?secret_key=5cf6d204-0f1c-468a-8254-42a2f22ac39a). Опубликована [разметка NER тестовых данных](https://github.com/dialogue-evaluation/RuREBus/blob/master/test_data/test_ner_only.zip) for test is released.
-* **Вы находитесь здесь**
 * **6 марта 2020** - финальная подача систем для задачи 2
 * **7 марта 2020** - объявление официальных результатов
-* **16 марта 2020** - дедлайн по статьям в сборник конференции Dialogue-2020
+* **Вы находитесь здесь**
+* **18 марта 2020** - дедлайн по статьям в сборник конференции Dialogue-2020
+
+## Результаты соревнования
+
+|   *      | NER | RE with NEs | End-to-end RE |
+| :---:   | :---:    | :---:    | :---:   |
+| **_Team_**   | **_f-measure_** | **_f-measure_** |  **_f-measure_**  |
+| **davletov-aa** | **0.560** | 0.369 | 0.000 |
+| **Sdernal** | 0.464 | **0.441** | 0.000 |
+| **ksmith** | 0.463 | 0.152 | **0.062** |
+| **viby** | 0.412 | 0.218 | 0.000 |
+| **dimsolo** | 0.400 | 0.000 | 0.000 |
+| **bond005** | 0.338 | 0.045 | 0.000 |
+| **Student2020** | 0.253 | 0.045 | 0.000 |
+
+* Таблица отсортирована по результатам первой дорожки, однако значимость всех трех дорожек одинакова.
 
 ## Формат сабмита
 
