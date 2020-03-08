@@ -21,13 +21,13 @@ We cordially invite you to participate in the RuREBus (Russian Relation Extracti
 |   *      | NER | RE with NEs | End-to-end RE |
 | :---:   | :---:    | :---:    | :---:   |
 | **_Team_**   | **_f-measure_** | **_f-measure_** |  **_f-measure_**  |
-| **davletov-aa** | **0.560** | 0.369 | 0.000 |
-| **Sdernal** | 0.464 | **0.441** | 0.000 |
+| **davletov-aa** | **0.560** | 0.369 | |
+| **Sdernal** | 0.464 | **0.441** | |
 | **ksmith** | 0.463 | 0.152 | **0.062** |
-| **viby** | 0.412 | 0.218 | 0.000 |
-| **dimsolo** | 0.400 | 0.000 | 0.000 |
-| **bond005** | 0.338 | 0.045 | 0.000 |
-| **Student2020** | 0.253 | 0.045 | 0.000 |
+| **viby** | 0.412 | 0.218 |  |
+| **dimsolo** | 0.400 | | |
+| **bond005** | 0.338 | 0.045 | |
+| **Student2020** | 0.253 | | |
 
 *Table is sorted by NER scores, but all 3 tasks are equally important.
 
@@ -158,13 +158,13 @@ To get RuREBus updates please join [our telegram channel](https://t.me/RuREBus).
 |   *      | NER | RE with NEs | End-to-end RE |
 | :---:   | :---:    | :---:    | :---:   |
 | **_Team_**   | **_f-measure_** | **_f-measure_** |  **_f-measure_**  |
-| **davletov-aa** | **0.560** | 0.369 | 0.000 |
-| **Sdernal** | 0.464 | **0.441** | 0.000 |
+| **davletov-aa** | **0.560** | 0.369 | |
+| **Sdernal** | 0.464 | **0.441** | |
 | **ksmith** | 0.463 | 0.152 | **0.062** |
-| **viby** | 0.412 | 0.218 | 0.000 |
-| **dimsolo** | 0.400 | 0.000 | 0.000 |
-| **bond005** | 0.338 | 0.045 | 0.000 |
-| **Student2020** | 0.253 | 0.045 | 0.000 |
+| **viby** | 0.412 | 0.218 |  |
+| **dimsolo** | 0.400 | | |
+| **bond005** | 0.338 | 0.045 | |
+| **Student2020** | 0.253 | | |
 
 *Таблица отсортирована по результатам первой дорожки, однако значимость всех трех дорожек одинакова.
 
