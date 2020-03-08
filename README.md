@@ -29,7 +29,7 @@ We cordially invite you to participate in the RuREBus (Russian Relation Extracti
 | **bond005** | 0.338 | 0.045 | 0.000 |
 | **Student2020** | 0.253 | 0.045 | 0.000 |
 
-*Table is sorted by NER scores, but all 3 tasks are equally important.
+* Table is sorted by NER scores, but all 3 tasks are equally important.
 
 ## Submission format
 
