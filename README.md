@@ -12,7 +12,7 @@ We cordially invite you to participate in the RuREBus (Russian Relation Extracti
 * **2.03.2020** -- the submission deadline for systems solving tasks 1 and 3
 * **3.03.2020** -- second evaluation phase starts (for task 2) [on codalab](https://competitions.codalab.org/competitions/23407?secret_key=5cf6d204-0f1c-468a-8254-42a2f22ac39a). [NER markup for test set](https://github.com/dialogue-evaluation/RuREBus/blob/master/test_data/test_ner_only.zip) is released.
 * **6.03.2020** -- the submission deadline for systems solving task 2
-* **7.03.2020** -- the results are announced 
+* **7.03.2020** -- the results are announced and [full test data markup](https://github.com/dialogue-evaluation/RuREBus/blob/master/test_data/test_full.zip) is released.
 * **We are here*
 * **18.03.2020** -- paper submission deadline
 
@@ -149,7 +149,7 @@ To get RuREBus updates please join [our telegram channel](https://t.me/RuREBus).
 * **2 марта 2020** - финальная подача систем для задач 1 и 3
 * **3 марта 2020**  - начало второй фазы тестирования (для задачи 2) [в codalab](https://competitions.codalab.org/competitions/23407?secret_key=5cf6d204-0f1c-468a-8254-42a2f22ac39a). Опубликована [разметка NER тестовых данных](https://github.com/dialogue-evaluation/RuREBus/blob/master/test_data/test_ner_only.zip) for test is released.
 * **6 марта 2020** - финальная подача систем для задачи 2
-* **7 марта 2020** - объявление официальных результатов
+* **7 марта 2020** - объявление официальных результатов и публикация [полной разметки теста](https://github.com/dialogue-evaluation/RuREBus/blob/master/test_data/test_full.zip)
 * **Вы находитесь здесь**
 * **18 марта 2020** - дедлайн по статьям в сборник конференции Dialogue-2020
 
@@ -169,8 +169,6 @@ To get RuREBus updates please join [our telegram channel](https://t.me/RuREBus).
 *Таблица отсортирована по результатам первой дорожки, однако значимость всех трех дорожек одинакова.
 
 Результаты, опубликованные после дедлайна (но до публикации тестовой выборки):
-
-Results submitted after the deadline but before the test corpus was published:
 |         | NER | RE with NEs | End-to-end RE |
 | :---:   | :---:    | :---:    | :---:   |
 | **_Team_**   | **_f-measure_** | **_f-measure_** |  **_f-measure_**  |
