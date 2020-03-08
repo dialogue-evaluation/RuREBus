@@ -39,7 +39,7 @@ Results submitted after the deadline but before the test corpus was published:
 | :---:   | :---:    | :---:    | :---:   |
 | **_Team_**   | **_f-measure_** | **_f-measure_** |  **_f-measure_**  |
 | **davletov-aa** | 0.561 |  | 0.132 |
-| **bondarenko** | 0.498 |  | 0.000 |
+| **bondarenko** | 0.498 |  |  |
 
 ## Submission format
 
@@ -178,7 +178,7 @@ To get RuREBus updates please join [our telegram channel](https://t.me/RuREBus).
 | :---:   | :---:    | :---:    | :---:   |
 | **_Team_**   | **_f-measure_** | **_f-measure_** |  **_f-measure_**  |
 | **davletov-aa** | 0.561 |  | 0.132 |
-| **bondarenko** | 0.498 |  | 0.000 |
+| **bondarenko** | 0.498 |  |  |
 
 ## Формат сабмита
 
