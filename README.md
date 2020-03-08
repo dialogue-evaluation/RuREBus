@@ -16,6 +16,19 @@ We cordially invite you to participate in the RuREBus (Russian Relation Extracti
 * **7.03.2020** -- the results are announced 
 * **16.03.2020** -- paper submission deadline
 
+## Results
+
+|         | NER | RE with NEs | End-to-end RE |
+| :---:   | :---:    | :---:    | :---:   |
+| **_Team_**   | **_recall_** | **_f-measure_** |  **_f-measure_**  |
+| **davletov-aa** | **0.560** | 0.369 | 0.000 |
+| **Sdernal** | 0.464 | **0.441** | 0.000 |
+| **ksmith** | 0.463 | 0.152 | **0.062** |
+| **viby** | 0.412 | 0.218 | 0.000 |
+| **dimsolo** | 0.400 | 0.000 | 0.000 |
+| **bond005** | 0.338 | 0.045 | 0.000 |
+| **Student2020** | 0.253 | 0.045 | 0.000 |
+
 ## Submission format
 
 ### Phase 1.
