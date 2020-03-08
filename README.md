@@ -31,6 +31,9 @@ We cordially invite you to participate in the RuREBus (Russian Relation Extracti
 
 *Table is sorted by NER scores, but all 3 tasks are equally important.
 
+In total there were 218 submitions by participants.
+
+
 Results submitted after the deadline but before the test corpus was published:
 |         | NER | RE with NEs | End-to-end RE |
 | :---:   | :---:    | :---:    | :---:   |
@@ -167,6 +170,8 @@ To get RuREBus updates please join [our telegram channel](https://t.me/RuREBus).
 | **Student2020** | 0.253 | | |
 
 *Таблица отсортирована по результатам первой дорожки, однако значимость всех трех дорожек одинакова.
+
+Всего участники сделали 218 сабмитов решений.
 
 Результаты, опубликованные после дедлайна (но до публикации тестовой выборки):
 |         | NER | RE with NEs | End-to-end RE |
