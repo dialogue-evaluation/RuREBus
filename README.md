@@ -24,7 +24,7 @@ We cordially invite you to participate in the RuREBus (Russian Relation Extracti
 | [**davletov-aa**](https://github.com/AdisDavletov/DeftEval2020/tree/dev) | **0.561** | 0.394 | |
 | [**Sdernal**](https://github.com/Sdernal/RuREBus/tree/master/Sdernal) | 0.464 | **0.441** | |
 | **ksmith** | 0.463 | 0.152 | **0.062** |
-| **viby** | 0.412 | 0.218 |  |
+| **viby** | 0.417 | 0.218 |  |
 | **dimsolo** | 0.400 | | |
 | **bond005** | 0.338 | 0.045 | |
 | **Student2020** | 0.253 | | |
@@ -164,7 +164,7 @@ To get RuREBus updates please join [our telegram channel](https://t.me/RuREBus).
 | [**davletov-aa**](https://github.com/AdisDavletov/DeftEval2020/tree/dev) | **0.561** | 0.394 | |
 | [**Sdernal**](https://github.com/Sdernal/RuREBus/tree/master/Sdernal) | 0.464 | **0.441** | |
 | **ksmith** | 0.463 | 0.152 | **0.062** |
-| **viby** | 0.412 | 0.218 |  |
+| **viby** | 0.417 | 0.218 |  |
 | **dimsolo** | 0.400 | | |
 | **bond005** | 0.338 | 0.045 | |
 | **Student2020** | 0.253 | | |
