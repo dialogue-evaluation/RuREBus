@@ -98,6 +98,30 @@ Tatiana Batura, Novosibirsk State University: tatiana.v.batura@gmail.com
 
 To get RuREBus updates please join [our telegram channel](https://t.me/RuREBus). We will be happy to answer any questions about the shared task in [our telegram chat](https://t.me/joinchat/GH1hLBH6dv8tTviF-dBFLA). 
 
+## Citing & Authors
+If you find this repository helpful, feel free to cite our publications: 
+
+[1] http://www.dialog-21.ru/media/5098/ivaninvaplusetal-182.pdf
+
+```
+@inproceedings{rurebus,
+  Address = {Moscow, Russia},
+  Author = {Ivanin, Vitaly and Artemova, Ekaterina and Batura, Tatiana and Ivanov, Vladimir and Sarkisyan, Veronika and Tutubalina, Elena and Smurov, Ivan},
+  Title = {RuREBus-2020 Shared Task: Russian Relation Extraction for Business},
+  Booktitle = {Computational  Linguistics  and  Intellectual  Technologies:  Proceedings of the International Conference “Dialog” [Komp’iuternaia Lingvistika  i  Intellektual’nye  Tehnologii:  Trudy  Mezhdunarodnoj  Konferentsii  “Dialog”]},
+  Year = {2020}
+}
+```
+[2]
+```
+@inproceedings{strategic-planning,
+  Author = {Artemova, Ekaterina and Batura, Tatiana and Golenkovskaya, Anna and Ivanin, Vitaly and Ivanov, Vladimir and Sarkisyan, Veronika and Smurov, Ivan and Tutubalina, Elena},
+  Title = {So What’s the Plan? Mining Strategic Planning Documents},
+  Booktitle = {Digital Transformation and Global Society: Proceedings of the 5th International Conference (DTGS 2020)},
+  Address = {St. Petersburg, Russia},
+  Year = {2020}
+}
+```
 
 # RuREBus
 Приглашаем принять участие в **RuREBus** (Russian Relation Extraction for Business) – соревновании по извлечению отношений(фактов) в постановке, приближенной к индустриальным задачам.
